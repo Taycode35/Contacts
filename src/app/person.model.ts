@@ -1,11 +1,13 @@
 export class Person {
-  name : string;
+  firstName : string;
   lastName : string;
+  private age:number
 
 
-  constructor(name: string, lastName : string){
-    this.name = name;
+  constructor(firstName: string, lastName : string, age: number){
+    this.firstName = firstName;
     this.lastName = lastName;
+    this.age = age;
   }
 
 }
